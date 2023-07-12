@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+}
+body { 
+    background-color: hsl(225, 100%, 94%);
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.summary-card {
+    align-items: center;
+    border-radius: 5%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5%;
+    height: 550px;
+    max-width: 380px;
+    padding: 1rem;
+    margin: 1rem;
+}
+.summary-card > .summary-image {
+    width: 412px;
+    height: 180px;
+    object-fit: fill;
+    align-content: center;
+    position: relative;
+    right: 1em;
+    bottom: 1em;
+    border-radius: 15px 15px 0 0;
+}
+.payment-button {
+    width: 80%;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    box-shadow: 0 8px 12px 0 rgba(46, 41, 182, 0.259), 0 6px 20px 0 rgba(32, 54, 227, 0.19);
+    transition-duration: 0.3s;
+}
+.payment-button:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+.cancel-button{
+    cursor: pointer;
+    border: 0;
+    color: hsl(220, 15%, 55%);
+    background-color: white;
+    padding-top: 1em;
+    font-size: 14px;
+    font-weight: 700;
+}
+.cancel-button:hover {
+    color: black;
+}
+.change-button {
+    border: 0;
+    cursor: pointer; 
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 700; 
+    position: relative;
+    left: 2em;   
+}
+.change-button:hover {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+.plan-div {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 70px;
+    margin-bottom: 2em;
+    width: 80%;
+    position: relative;
+    left: 2.4em;
+    border-radius: 15px;
+}
+.music-icon {
+    position: relative;
+    right: 2em;
+    transition: transform .1s;
+}
+.music-icon:hover {
+    transform: scale(1.05);
+    }
+.plan {
+    position: relative;
+    right: 1.5em;
+    top: 0.6em;
+    font-size: 14px;
+}
+.price {
+    color: hsl(220, 15%, 55%);
+    position: relative;
+    right: 1.5em;
+    bottom: 0.4em;
+    font-size: 14px;
+}
+.main-heading {
+    font-weight: 900;
+    font-size: 25px;
+}
+.main-paragraph {
+    color: hsl(220, 15%, 55%);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 1rem;
+}
+

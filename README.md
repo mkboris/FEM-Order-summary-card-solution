@@ -17,7 +17,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: https://github.com/mkboris/FEM-Order-summary-card-solution
-- Live Site URL: https://mkboris.github.io/FEM-Order-summary-card-solution/
+- Live Site URL: https://mkboris.github.io/Order-summary-card-solution/
 
 
 ### Built with

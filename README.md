@@ -14,7 +14,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](/design/screenshot.png)
+![](/design/desktop-design.jpg)
 
 ### Links
 
@@ -26,6 +26,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Flexbox
 
 ### Continued development
 
@@ -38,6 +39,5 @@ Building more projects to improve my skills.
 ## Author
 
 - Frontend Mentor - [@mkboris](https://www.frontendmentor.io/profile/mkboris)
-- Twitter - [@mk_boris](https://www.twitter.com/mk_boris)
 
 

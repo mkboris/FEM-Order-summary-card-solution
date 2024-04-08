@@ -46,6 +46,10 @@ body {
   border: 0;
 }
 
+* {
+  margin: 0;
+}
+
 /* Set shorter line heights on headings and interactive elements */
 h1,
 h2,
@@ -98,123 +102,169 @@ textarea:not([rows]) {
 
 body {
   background-color: hsl(225, 100%, 94%);
-  margin: auto;
-  font-size: 16px;
   font-family: "Red Hat Display", sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  align-content: center;
   justify-content: center;
-  min-height: 100vh;
+  text-align: center;
+  background-image: url("images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
 }
 
 .summary-card {
-  align-items: center;
-  border-radius: 5%;
-  background-color: white;
-  text-align: center;
-  border-radius: 5%;
-  height: 550px;
-  max-width: 380px;
-  padding: 1rem;
-  margin: 1rem;
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  overflow: hidden;
+  margin: 4.4375rem 1.5rem;
+  padding-bottom: 2rem;
 }
-.summary-card > .summary-image {
-  width: 412px;
-  height: 180px;
-  object-fit: fill;
-  align-content: center;
-  position: relative;
-  right: 1em;
-  bottom: 1em;
-  border-radius: 15px 15px 0 0;
+
+.text {
+  max-width: 22.125rem;
+  margin: 0 auto;
 }
-.payment-button {
-  width: 80%;
-  background-color: hsl(245, 75%, 52%);
-  color: white;
-  font-size: 14px;
-  font-weight: 700;
-  border: 0;
-  border-radius: 0.5rem;
-  padding: 1rem;
-  cursor: pointer;
-  box-shadow: 0 8px 12px 0 rgba(46, 41, 182, 0.259),
-    0 6px 20px 0 rgba(32, 54, 227, 0.19);
-  transition-duration: 0.3s;
+
+h1 {
+  font-weight: 900;
+  font-size: 1.375rem;
+  line-height: 1.8125;
+  color: #1f2e55;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
-.payment-button:hover {
-  background-color: hsl(224, 23%, 55%);
+
+.main-paragraph {
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 167%;
+  color: #717fa6;
+  margin-bottom: 1.5rem;
 }
-.cancel-button {
-  cursor: pointer;
-  border: 0;
-  color: hsl(220, 15%, 55%);
-  background-color: white;
-  padding-top: 1em;
-  font-size: 14px;
-  font-weight: 700;
-}
-.cancel-button:hover {
-  color: black;
-}
-.change-button {
-  border: 0;
-  cursor: pointer;
-  background-color: hsl(225, 100%, 98%);
-  color: hsl(245, 75%, 52%);
-  text-decoration: underline;
-  font-size: 14px;
-  font-weight: 700;
-  position: relative;
-  left: 2em;
-}
-.change-button:hover {
-  color: hsl(224, 23%, 55%);
-  text-decoration: none;
-}
+
 .plan-div {
-  background-color: hsl(225, 100%, 98%);
   display: flex;
   align-items: center;
   justify-content: center;
-  align-content: center;
-  height: 70px;
-  margin-bottom: 2em;
-  width: 80%;
-  position: relative;
-  left: 2.4em;
-  border-radius: 15px;
+  background: #f7f9ff;
+  border-radius: 0.6875rem;
+  padding: 1rem;
+  width: fit-content;
+  margin: 0 auto 1.5rem;
 }
+
 .music-icon {
-  position: relative;
-  right: 2em;
-  transition: transform 0.1s;
+  margin-right: 1.25rem;
 }
-.music-icon:hover {
-  transform: scale(1.05);
+
+.annual-div {
+  margin-right: 3.125rem;
 }
+
 .plan {
-  position: relative;
-  right: 1.5em;
-  top: 0.3em;
-  font-size: 14px;
-}
-.price {
-  color: hsl(220, 15%, 55%);
-  position: relative;
-  right: 1.5em;
-  bottom: 0.4em;
-  font-size: 14px;
-}
-.main-heading {
   font-weight: 900;
-  font-size: 25px;
+  font-size: 0.875rem;
+  line-height: 1.1875;
+  color: #1f2e55;
+  margin-bottom: 0.1875rem;
 }
-.main-paragraph {
-  color: hsl(220, 15%, 55%);
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 1rem;
+
+.price {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.1875;
+  color: #717fa6;
+}
+
+.change-btn {
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 1.0625;
+  color: #382ae1;
+}
+
+.change-btn:hover {
+  color: #766cf1;
+}
+
+.payment-btn {
+  font-weight: 900;
+  font-size: 0.9375rem;
+  line-height: 1.25;
+  color: #ffffff;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 0.6875rem;
+  padding: 0.9375em 4em;
+  text-decoration: none;
+  margin: 0 auto 1.5rem;
+}
+
+.payment-btn:hover {
+  background: #766cf1;
+}
+
+.cancel-btn {
+  font-weight: 900;
+  font-size: 0.9375rem;
+  line-height: 1.25;
+  color: #717fa6;
+  text-decoration: none;
+}
+
+.cancel-btn:hover {
+  color: #1f2e55;
+}
+
+@media screen and (min-width: 26.5625rem) {
+  body {
+    background-image: url("images/pattern-background-desktop.svg");
+  }
+}
+
+@media screen and (min-width: 37.5rem) {
+  .summary-card {
+    padding-bottom: 3rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    line-height: 2.3125rem;
+    margin-top: 2.8125rem;
+    margin-bottom: 1.0625rem;
+  }
+
+  .main-paragraph {
+    font-size: 1rem;
+    line-height: 162%;
+    margin-bottom: 1.25rem;
+  }
+
+  .plan-div {
+    padding: 1.5625rem 1.5rem;
+    width: 22.125rem;
+  }
+
+  .plan {
+    font-size: 1rem;
+    line-height: 1.3125;
+  }
+
+  .price {
+    font-size: 1rem;
+    line-height: 1.3125;
+  }
+
+  .change-btn {
+    font-size: 0.875rem;
+    line-height: 1.1875;
+  }
+
+  .payment-btn {
+    padding: 0.9375em 6.375em;
+    margin: 0 auto 2rem;
+  }
 }

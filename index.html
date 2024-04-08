@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <meta
+      name="description"
+      content="Explore our annual plan for unlimited access to millions of songs, audiobooks, and podcasts on any device. Get started with our order summary card today. Convenient, affordable, and accessible entertainment awaits. Proceed to payment and cancel anytime."
+    />
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="icon"
@@ -21,31 +24,32 @@
     <title>Frontend Mentor | Order summary card</title>
   </head>
   <body>
-    <main class="summary-card">
-      <img
-        class="summary-image"
-        src="images/illustration-hero.svg"
-        alt="an image of a woman listening to music"
-      />
-      <h1 class="main-heading">Order Summary</h1>
-      <p class="main-paragraph">
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-      <div class="plan-div">
+    <main>
+      <div class="summary-card">
         <img
-          class="music-icon"
-          src="images/icon-music.svg"
-          alt="music icon image"
+          class="summary-image"
+          src="images/illustration-hero.svg"
+          alt="a woman listening to music"
         />
-        <div class="annual-div">
-          <h2 class="plan">Annual Plan</h2>
-          <h2 class="price">$59.99/year</h2>
+        <div class="text">
+          <h1>Order Summary</h1>
+          <p class="main-paragraph">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
         </div>
-        <button class="change-button">Change</button>
+
+        <div class="plan-div">
+          <img class="music-icon" src="images/icon-music.svg" alt="" />
+          <div class="annual-div">
+            <p class="plan">Annual Plan</p>
+            <p class="price">$59.99/year</p>
+          </div>
+          <a href="#" class="change-btn">Change</a>
+        </div>
+        <a href="#" class="payment-btn">Proceed to Payment</a>
+        <a href="#" class="cancel-btn">Cancel Order</a>
       </div>
-      <button class="payment-button">Proceed to Payment</button>
-      <p><button class="cancel-button">Cancel Order</button></p>
     </main>
   </body>
 </html>

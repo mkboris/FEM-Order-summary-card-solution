@@ -18,7 +18,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - [Solution](https://github.com/mkboris/Order-summary-card)
-- [Live Site](https://mkboris.github.io/Order-summary-card-solution/)
+- [Live Site](https://mkboris.github.io/Order-summary-card/)
 
 ### Built with
 

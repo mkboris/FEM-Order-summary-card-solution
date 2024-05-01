@@ -8,7 +8,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -18,19 +17,14 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: https://github.com/mkboris/Order-summary-card-solution
-- Live Site URL: https://mkboris.github.io/Order-summary-card-solution/
-
+- [Solution](https://github.com/mkboris/Order-summary-card)
+- [Live Site](https://mkboris.github.io/Order-summary-card-solution/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### Continued development
-
-Building more projects to improve my skills.
 
 ### Useful resources
 
